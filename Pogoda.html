@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="pl" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv-"X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--<meta http-equiv="refresh" content="1" /> -->
+
+    <title>Pogoda.net</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="img/słońce.png" />
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <div id="card">
+        <div id="weather">
+            <img src="img/słońce.png" alt="rain icon" id="weather_id" />
+            <h1 id="temp"></h1>
+            <h3>
+                Odczuwalna:
+            </h3>
+            <h3 id="feels_like"></h3>
+            <h2 id="city"> </h2>
+            <div id="details">
+                <h3>Ciśnienie:</h3>
+                <p id="pressure"></p>
+
+                <h3>Wilgotność:</h3>
+                <p id="humidity"></p>
+
+                <h3>Prędkość wiatru:</h3>
+                <p id="wind"></p>
+
+            </div>
+        </div>
+        
+    <script src="script.js" async></script>
+</body>
+</html>
