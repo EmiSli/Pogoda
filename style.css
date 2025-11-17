@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(trees-3294681_1920.jpg);
+    background-image: url(./trees-3294681_1920.jpg);
     display: grid;
     place-items: center;
 }
@@ -57,3 +57,4 @@ body {
 
 
 /**<meta http-equiv="refresh" content="2" />*/
+
